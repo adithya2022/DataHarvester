@@ -22,8 +22,8 @@ public class ReadCSV {
 				entry("O", "Oats")
 
 		);
-		final String fileName = "D:\\DataHarvester\\harvest data - clean.csv";
-		FileWriter writer = new FileWriter("D:\\Output\\DataHarvesterOutput.csv");
+		final String fileName = "..\\DataHarvester\\Input\\harvest data - clean.csv";
+		FileWriter writer = new FileWriter("..\\DataHarvester\\Output\\DataHarvesterOutput.csv");
 		String csvLine;
 		BufferedReader br;
 
