@@ -14,15 +14,21 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class ReadCSV {
 	public static void main(String args[]) throws IOException {
+		
+		final Logger logger = LoggerFactory.getLogger(ReadCSV.class);
 		// HashMap created for crop codes
 		Map<String, String> cropCodes = Map.ofEntries(entry("W", "Wheat"), entry("B", "Barley"), entry("M", "Maize"),
 				entry("BE", "Beetroot"), entry("C", "Carrot"), entry("PO", "Potatoes"), entry("PA", "Parsnips"),
 				entry("O", "Oats")
 
 		);
-		final String fileName = "..\\DataHarvester\\Input\\harvest data - clean.csv";
+		final String fileName = "..\\DataHarvester\\Input\\harvest data - validation needed.csv";//validation csv
+	//	final String fileName = "..\\DataHarvester\\Input\\harvest data - clean.csv";//actual csv
 		FileWriter writer = new FileWriter("..\\DataHarvester\\Output\\DataHarvesterOutput.csv");
 		String csvLine;
 		BufferedReader br;
@@ -32,9 +38,11 @@ public class ReadCSV {
 		try {
 
 			while ((csvLine = br.readLine()) != null) {
+				Boolean isError=false;
 				List<String> finalList = new ArrayList<String>();
 
 				String[] data = csvLine.split(",");
+				
 				String county = data[0];
 
 				String[] newDataSet = removeFirstElement(data);
@@ -47,11 +55,31 @@ public class ReadCSV {
 
 				// crop code for corresponding county
 				List<String> cropCode = groups.get(0);
+				for(String code:cropCode)
+				{
+					if(!cropCodes.containsKey(code.trim()))
+					{
+						logger.error("Crop code does not exist "+code.trim());
+									isError=true;		
+						}
+				}
+				
 				// quantity for corresponding county
 				List<String> quantityList = groups.get(1);
-
+				
+				for(String quantity:quantityList)
+				{
+					if(!quantity.trim().matches("[0-9]+"))
+					{
+						logger.error("Quantity Error "+quantity.trim());
+						isError=true;
+					}
+				}
+				if(isError)
+				continue;
 				List<Double> quantity = new ArrayList<Double>();
 				for (int a = 0; a < quantityList.size(); a++) {
+					
 					quantity.add(Double.parseDouble(quantityList.get(a).trim()));
 				}
 

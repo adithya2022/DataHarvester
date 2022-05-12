@@ -1,0 +1,39 @@
+2022-05-12 20:43:08,284 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 20:43:08,301 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 20:43:08,301 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 20:58:42,709 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 20:58:42,717 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 20:58:42,718 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 21:01:59,594 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 21:01:59,604 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 21:01:59,605 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 21:03:18,214 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 21:03:18,227 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 21:03:18,227 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 21:04:23,472 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 21:04:23,484 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 21:04:23,484 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 21:09:29,843 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 21:09:29,848 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 21:09:29,849 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 21:09:29,850 ERROR com.data.harvest.ReadCSV [main] Quantity Error 4_f7
+2022-05-12 21:09:29,850 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist be
+2022-05-12 21:09:29,850 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 
+2022-05-12 21:09:29,851 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 
+2022-05-12 21:09:29,851 ERROR com.data.harvest.ReadCSV [main] Quantity Error 
+2022-05-12 21:09:29,852 ERROR com.data.harvest.ReadCSV [main] Quantity Error 
+2022-05-12 21:09:29,852 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 4
+2022-05-12 21:09:29,852 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 80
+2022-05-12 21:09:29,853 ERROR com.data.harvest.ReadCSV [main] Quantity Error PA
+2022-05-12 21:33:23,367 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist Q
+2022-05-12 21:33:23,371 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 68
+2022-05-12 21:33:23,372 ERROR com.data.harvest.ReadCSV [main] Quantity Error W
+2022-05-12 21:33:23,372 ERROR com.data.harvest.ReadCSV [main] Quantity Error 4_f7
+2022-05-12 21:33:23,372 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist be
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Quantity Error 
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Quantity Error 
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 4
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Crop code does not exist 80
+2022-05-12 21:33:23,373 ERROR com.data.harvest.ReadCSV [main] Quantity Error PA
